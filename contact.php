@@ -23,7 +23,7 @@ echo "There Are No Contacts Available.\n";
 while (true){
 echo "\nContact Management Menu:\n";
 echo "\n1. Add Contact\n2. View Contacts\n3. Exit\n";
-$choice = (int)readline("\nChoose An Option:");
+$choice = (int)readline("Choose An Option:");
 if ($choice === 1){
 $name = readline("\nEnter Name: ");
 $email = readline("\nEnter Email: ");
